@@ -26,44 +26,46 @@
     </div> 
     <!-- End mainmenu area -->
 
-<div class="form-connex"> <!-- Texte a modifier -->
-	    <p class="pg_connex">
-            Si vous êtes un nouveau client, passez à la section commande et expédition.
-        </p>
-</div>
+
+<div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 form_conta">
+                    <div class="product-content-right">
+                        <div class="woocommerce">
+
+                            <form id="login-form-wrap" class="login" method="post">
+
+                                <p>Si vous êtes un nouveau client, passez à la section commande et expédition.</p>
+
+                                <p class="form-row form-row-first">
+                                    <label for="username">nom d'utilisateur <span class="required">*</span>
+                                    </label>
+                                    <input type="text" id="username" name="username" class="input-text">
+                                </p>
+                                <p class="form-row form-row-last">
+                                    <label for="password">Mot de passe <span class="required">*</span>
+                                    </label>
+                                    <input type="password" id="password" name="password" class="input-text">
+                                </p>
+                                <div class="clear"></div>
 
 
-<form class="form-inline">
-	
-	<div class="form-group"> <!-- Nom d'utilisateur -->
-		<input class="form-control" id="username_id" name="user_name" type="text" placeholder="nom d'utilisateur"/>
-	</div>
-	
-	<div class="form-group"> <!-- Mot de passe -->
-		<input class="form-control" id="password_id" name="user_password" type="password" placeholder="Mot de passe"/>
-	</div>
-	
-	<div class="form-group"> <!-- Boutton Login  -->
-		<button class="btn btn-primary " name="submit" type="submit">S'identifier</button>
-	</div>	
-	
-	<div class="form-group"> <!-- Se rappeler -->
-		<div class="checkbox">
-			<label class="checkbox">
-			<input name="remember" type="checkbox" value="yes"/>
-				Se rappeler de moi
-			</label>
-		</div>
-	</div>
+                                <p class="form-row">
+                                    <input type="submit" value="S'identifier" name="login" class="button">
+                                    <label class="inline" for="rememberme"><input type="checkbox" value="forever" id="rememberme" name="rememberme"> Se rappeler de moi </label>
+                                </p>
+                                <p class="lost_password">
+                                    <a href="#">Mot de passe oublié?</a>
+                                </p>
 
-</form>
+                                <div class="clear"></div>
+                            </form>
 
-<div class="d-inline"> <!-- Lien vers page recovery -->
-	    <p class="pg_connex">
-            <a href="#">Mot de passe oublié</a>
-        </p>
-</div>
-
-
-		
-
+                        </div>                       
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
